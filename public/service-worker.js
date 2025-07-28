@@ -1,1 +1,1 @@
-// Placeholder for future service worker
+// Placeholder for Service Worker
