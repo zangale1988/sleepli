@@ -8,7 +8,7 @@ export default function SleepliApp() {
   const [napEnd, setNapEnd] = useState('14:00');
   const [napEnabled, setNapEnabled] = useState(true);
   const [wakeHours, setWakeHours] = useState(12);
-  const [wakeMinutes, setWakeMinutes] = useState(0);
+  const [wakeMinutes, setWakeMinutes] = useState(30);
 
   function parseTime(t) {
     const [h, m] = t.split(':').map(Number);
