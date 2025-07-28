@@ -6,7 +6,7 @@ export default function SleepliApp() {
   const [bedTime, setBedTime] = useState('19:30');
   const [napStart, setNapStart] = useState('13:00');
   const [napEnd, setNapEnd] = useState('14:00');
-  const [napEnabled, setNapEnabled] = useState(true);
+  const [napEnabled, setNapEnabled] = useState(false);
   const [wakeHours, setWakeHours] = useState(12);
   const [wakeMinutes, setWakeMinutes] = useState(0);
 
@@ -20,7 +20,7 @@ export default function SleepliApp() {
   function formatDuration(min) {
     const h = Math.floor(min / 60);
     const m = min % 60;
-    return \`\${h}h \${m}min\`;
+    return `${h}h ${m}min`;
   }
 
   function calcWachzeit() {
