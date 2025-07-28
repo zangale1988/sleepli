@@ -6,7 +6,7 @@ export default function SleepliApp() {
   const [bedTime, setBedTime] = useState('19:30');
   const [napStart, setNapStart] = useState('13:00');
   const [napEnd, setNapEnd] = useState('14:00');
-  const [napEnabled, setNapEnabled] = useState(true);
+  const [napEnabled, setNapEnabled] = useState(false);
   const [wakeHours, setWakeHours] = useState(12);
   const [wakeMinutes, setWakeMinutes] = useState(30);
 
