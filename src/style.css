@@ -1,11 +1,17 @@
 
 body {
-  background: #f9fafb;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9fafb;
   color: #111827;
+  padding: 1rem;
 }
 @media (prefers-color-scheme: dark) {
   body {
-    background: #111827;
+    background-color: #111827;
     color: #f9fafb;
   }
+}
+input[type="time"], input[type="checkbox"], button {
+  margin: 0.5rem 0;
 }
